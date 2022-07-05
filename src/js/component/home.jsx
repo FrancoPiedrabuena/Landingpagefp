@@ -12,11 +12,13 @@ const Home = () => {
 			<div className="container">
 			<MyJumbo/>
 			</div>
-			<div className="container">
+			<div className="container d-flex flex-wrap">
 			<MyCard/>
-			</div>
-			<MyFooter/>
-
+			<MyCard/>
+			<MyCard/>
+			<MyCard/>
+			</div>			
+			<MyFooter/>			
 		</div>
 	
 	);
